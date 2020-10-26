@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(212, 214, 216);
+}
+
+#padre {
+    
+
+    background-color: rgba(0, 0, 255, 0);
+    
+    margin: auto;
+    margin-top: 6rem;
+    height: 500px;
+    width: 800px;
+    
+    display: flex;
+  
+}
+
+.figliouno {
+    height: 500px;
+    width: 300px;
+    background-color: rgb(158, 150, 145);   
+  
+    
+}
+#aaa {
+    background-image: url(aaa.jpg);
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    margin-left: 75px;
+    margin-top: 30px;
+    align-content: center;
+    
+}
+
+.figliodue {
+    height: 500px;
+    width: 500px;
+    background-color: chocolate;
+    
+}
+
+.figliodue h2 {
+    color: cyan;
+    text-align: center;
+    font-size: 40px;
+    padding: 5%;
+}
+
+h3 {
+    padding: 5%;
+    padding-bottom: 0;
+}
+h4 {
+    padding: 5%;
+    padding-top: 0%;
+}
+
+
+   
+
+
+
+#zzz {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(209, 14, 14);
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+
+@media only screen and (max-width: 678px) {
+    #padre {
+        
+        display: inline;
+    }
+@media only screen and (max-width: 678px) {
+    .figliouno {
+        
+        width: 500px;
+    }
+@media only screen and (max-width: 678px) {
+    .figliouno #aaa{
+        
+        margin: auto;
+        
+    }
